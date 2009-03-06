@@ -93,7 +93,7 @@ modern commercial tools include:
   * [http://www.elissar.biz/DIDO.html DIDO] is a package that runs under Matlab and uses a Lagrange pseudospectral method.
 
 
-== How you can help ==
+= How you can help =
 
 You may help improve PSOPT in a number of ways. 
 
