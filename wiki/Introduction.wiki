@@ -74,7 +74,7 @@ These are some reasons why users may wish to use PSOPT
 
 
 PSOPT does not require a commercial software environment to run on, 
-or to be compiled. PSOPT is fully compatible with the gcc compiler, and has
+or to be compiled. PSOPT is fully compatible with the [http://gcc.gnu.org/ GCC] compiler, and has
 been developed under Linux, a free operating system.
 There is an optional interface to the the nonlinear programming solver SNOPT.
 Note also that the default NLP solver (IPOPT) requires a sparse linear solver
