@@ -57,7 +57,7 @@ PSOPT has interfaces to the following NLP solvers:
 
 
 
-== Why use PSOPT and what alternatives exist ==
+= Why use PSOPT and what alternatives exist =
 
 These are some reasons why users may wish to use PSOPT
 
@@ -92,7 +92,7 @@ modern commercial tools include:
 
   * [http://www.elissar.biz/DIDO.html DIDO] is a package that runs under Matlab and uses a Lagrange pseudospectral method.
 
-== Contacting the author ==
+= Contacting the author =
 
 The author can be contacted at his email address: v.m.becerra@ieee.org.
 The author is open to discussing with users potential research collaboration 
