@@ -52,7 +52,6 @@ implemented in the same C++ function.
 = Interfaces =
 PSOPT has interfaces to the following NLP solvers:
 
-  * IPOPT: an open source C++ implementation of an interior point method
-for large scale problems.
+  * IPOPT: an open source C++ implementation of an interior point method for large scale problems.
 
   * SNOPT: a well known and widely used proprietary large scale NLP solver.
