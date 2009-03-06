@@ -46,8 +46,7 @@ The implementation has the following features:
 
   * Automatic identification of the Jacobian sparsity
 
-  * DAE formulation, so that differential and algebraic constraints can be
-implemented in the same C++ function.
+  * DAE formulation, so that differential and algebraic constraints can be implemented in the same C++ function.
 
 = Interfaces =
 PSOPT has interfaces to the following NLP solvers:
