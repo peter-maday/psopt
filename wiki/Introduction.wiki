@@ -52,4 +52,4 @@ PSOPT has interfaces to the following NLP solvers:
 
   * [http://www.coin-or.org/Ipopt/documentation/ IPOPT]: an open source C++ implementation of an interior point method for large scale problems.
 
-  * SNOPT: a well known and widely used proprietary large scale NLP solver.
+  * [http://www.sbsi-sol-optimize.com/asp/sol_product_snopt.htm SNOPT]: a well known and widely used proprietary large scale NLP solver.
