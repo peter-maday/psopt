@@ -41,7 +41,7 @@ The implementation has the following features:
 
   * Automatic scaling
 
-  * Automatic differentiation using the ADOL-C library
+  * Automatic differentiation using the [http://www.math.tu-dresden.de/~adol-c/ ADOL-C] library
 
   * Numerical differentiation by using sparse finite differences
 
