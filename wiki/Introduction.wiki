@@ -117,3 +117,7 @@ You may help improve PSOPT in a number of ways.
   * If you have had a good experience with PSOPT, tell your students or colleagues about it.
 
   *  Quoting the use of PSOPT in your scientific publications.
+
+= About the author =
+
+[http://www.personal.reading.ac.uk/~shs99vmb Victor M. Becerra] has been an academic at the School of Systems Engineering, University of Reading, United Kingdom,  since 2000, where he is currently a Reader. He obtained his PhD in optimal control from City University, London. in 1994. 
