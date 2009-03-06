@@ -1,8 +1,8 @@
-#summary One-sentence summary of this page.
+#summary Introduction to PSOPT
 
 = Introduction =
 
-PSOPT is an open source optimal control package implementing a Legendre
+*PSOPT* is an open source optimal control package implementing a Legendre
 pseudospectral discretisation method. This is a method for solving optimal
 control problems which uses a collocation method based on polynomial interpolation
 to discretize the differential equations, as well as nonlinear programming
@@ -32,7 +32,7 @@ The implementation has the following features:
 - DAE formulation, so that differential and algebraic constraints can be
 implemented in the same C++ function.
 
-= Interfaces
+= Interfaces =
 PSOPT has interfaces to the following NLP solvers:
 - IPOPT: an open source C++ implementation of an interior point method
 for large scale problems.
