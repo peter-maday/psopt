@@ -8,51 +8,51 @@ orthogonal polynomials, as well as nonlinear programming
 to find local optimal solutions. PSOPT is able to deal with problems
 with the following characteristics:
 
-* Single or multiphase problems
+  * Single or multiphase problems
 
-* Continuous time nonlinear dynamics
+  * Continuous time nonlinear dynamics
 
-* General endpoint constraints
+  * General endpoint constraints
 
-* Nonlinear path constraints 
+  * Nonlinear path constraints 
 
-* Integral constraints
+  * Integral constraints
 
-* Interior point constraints
+  * Interior point constraints
 
-* Bounds on controls and state variables
+  * Bounds on controls and state variables
 
-* General cost function with Lagrange and Mayer terms.
+  * General cost function with Lagrange and Mayer terms.
 
-* Free or fixed initial and final conditions
+  * Free or fixed initial and final conditions
 
-* Linear or nonlinear linkages between phases
+  * Linear or nonlinear linkages between phases
 
-* Fixed or free initial time
+  * Fixed or free initial time
 
-* Fixed or free final time
+  * Fixed or free final time
 
-* Optimisation of static parameters
+  * Optimisation of static parameters
 
 
 = Features =
 The implementation has the following features:
 
-* Automatic scaling
+  * Automatic scaling
 
-* Automatic differentiation using the ADOL-C library
+  * Automatic differentiation using the ADOL-C library
 
-* Numerical differentiation by using sparse finite differences
+  * Numerical differentiation by using sparse finite differences
 
-* Automatic identification of the Jacobian sparsity
+  * Automatic identification of the Jacobian sparsity
 
-* DAE formulation, so that differential and algebraic constraints can be
+  * DAE formulation, so that differential and algebraic constraints can be
 implemented in the same C++ function.
 
 = Interfaces =
 PSOPT has interfaces to the following NLP solvers:
 
-* IPOPT: an open source C++ implementation of an interior point method
+  * IPOPT: an open source C++ implementation of an interior point method
 for large scale problems.
 
-* SNOPT: a well known and widely used proprietary large scale NLP solver.
+  * SNOPT: a well known and widely used proprietary large scale NLP solver.
