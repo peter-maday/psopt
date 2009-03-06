@@ -92,12 +92,6 @@ modern commercial tools include:
 
   * [http://www.elissar.biz/DIDO.html DIDO] is a package that runs under Matlab and uses a Lagrange pseudospectral method.
 
-= Contacting the author =
-
-The author can be contacted at his email address: v.m.becerra@ieee.org.
-The author is open to discussing with users potential research collaboration 
-leading to publications, academic exchanges, or joint projects.
-
 
 == How you can help ==
 
@@ -121,3 +115,9 @@ You may help improve PSOPT in a number of ways.
 = About the author =
 
 [http://www.personal.reading.ac.uk/~shs99vmb Victor M. Becerra] has been an academic at the School of Systems Engineering, University of Reading, United Kingdom,  since 2000, where he is currently a Reader. He obtained his PhD in optimal control from City University, London. in 1994. 
+
+= Contacting the author =
+
+The author can be contacted at his email address: v.m.becerra@ieee.org.
+The author is open to discussing with users potential research collaboration 
+leading to publications, academic exchanges, or joint projects.
