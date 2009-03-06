@@ -48,6 +48,7 @@ The implementation has the following features:
   * DAE formulation, so that differential and algebraic constraints can be implemented in the same C++ function.
 
 = Interfaces =
+
 PSOPT has interfaces to the following NLP solvers:
 
   * [http://www.coin-or.org/Ipopt/documentation/ IPOPT]: an open source C++ implementation of an interior point method for large scale problems.
@@ -61,14 +62,11 @@ PSOPT has interfaces to the following NLP solvers:
 These are some reasons why users may wish to use PSOPT
 
 
-  * Users who for any reason do not have access to commercial optimal control solvers
-and wish to employ a free open source package for optimal control which does not
-need a proprietary software environment to run on.
+  * Users who for any reason do not have access to commercial optimal control solvers and wish to employ a free open source package for optimal control which does not need a proprietary software environment to run on.
 
   * Users who need to link an optimal control solver from a C++ application.
 
-  * Users who want to do research with the software, for instance by implementing
-their own problems, or by customising the code.
+  * Users who want to do research with the software, for instance by implementing their own problems, or by customising the code.
 
 
 PSOPT does not require a commercial software environment to run on, 
@@ -88,10 +86,8 @@ There are commercial tools for solving large scale optimal control problems. Som
 modern commercial tools include:
 
 
-  * [http://www.boeing.com/phantom/socs/ SOCS] which
-uses a direct transcription  method based on ODE integration formulae.
+  * [http://www.boeing.com/phantom/socs/ SOCS] which uses a direct transcription  method based on ODE integration formulae.
 
-  *  [http://www.tomdyn.com PROPT], which runs under \textsc{Matlab} and
-uses a pseudospectral method.
+  *  [http://www.tomdyn.com PROPT], which runs under Matlab and uses a pseudospectral method.
+
   * [http://www.elissar.biz/DIDO.html DIDO] is a package that runs under Matlab and uses a Lagrange pseudospectral method.
-
