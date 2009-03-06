@@ -114,10 +114,6 @@ You may help improve PSOPT in a number of ways.
 
   *  Sending source code with new examples which may be included (with due acknowledgement) in future releases of PSOPT.
 
-  *  Porting the software to new architectures.
-
   * If you have had a good experience with PSOPT, tell your students or colleagues about it.
 
   *  Quoting the use of PSOPT in your scientific publications.
-
-  *  Developing interfaces to other NLP solvers.
