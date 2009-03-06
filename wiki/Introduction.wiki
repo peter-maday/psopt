@@ -91,3 +91,33 @@ modern commercial tools include:
   *  [http://www.tomdyn.com PROPT], which runs under Matlab and uses a pseudospectral method.
 
   * [http://www.elissar.biz/DIDO.html DIDO] is a package that runs under Matlab and uses a Lagrange pseudospectral method.
+
+== Contacting the author ==
+
+The author can be contacted at his email address: v.m.becerra@ieee.org.
+The author is open to discussing with users potential research collaboration 
+leading to publications, academic exchanges, or joint projects.
+
+
+== How you can help ==
+
+You may help improve PSOPT in a number of ways. 
+
+
+  *  Sending bug reports.
+
+  *  Sending corrections to the documentation.
+
+  *  Discussing with the author ways to improve the computational aspects or capabilities  of the software.
+
+  *  Sending to the author proposed modifications to the source code, for consideration  to be included in a future release of PSOPT.
+
+  *  Sending source code with new examples which may be included (with due acknowledgement) in future releases of PSOPT.
+
+  *  Porting the software to new architectures.
+
+  * If you have had a good experience with PSOPT, tell your students or colleagues about it.
+
+  *  Quoting the use of PSOPT in your scientific publications.
+
+  *  Developing interfaces to other NLP solvers.
