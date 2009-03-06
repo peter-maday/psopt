@@ -53,3 +53,45 @@ PSOPT has interfaces to the following NLP solvers:
   * [http://www.coin-or.org/Ipopt/documentation/ IPOPT]: an open source C++ implementation of an interior point method for large scale problems.
 
   * [http://www.sbsi-sol-optimize.com/asp/sol_product_snopt.htm SNOPT]: a well known and widely used proprietary large scale NLP solver.
+
+
+
+== Why use PSOPT and what alternatives exist ==
+
+These are some reasons why users may wish to use PSOPT
+
+
+  * Users who for any reason do not have access to commercial optimal control solvers
+and wish to employ a free open source package for optimal control which does not
+need a proprietary software environment to run on.
+
+  * Users who need to link an optimal control solver from a C++ application.
+
+  * Users who want to do research with the software, for instance by implementing
+their own problems, or by customising the code.
+
+
+PSOPT does not require a commercial software environment to run on, 
+or to be compiled. PSOPT is fully compatible with the gcc compiler, and has
+been developed under Linux, a free operating system.
+There is an optional interface to the the nonlinear programming solver SNOPT.
+Note also that the default NLP solver (IPOPT) requires a sparse linear solver
+from a range of options, some of which are available at no cost. The author has personally used the linear solver ma27. 
+
+At the time of writing, there is at least one freely available tool implementing 
+a pseudospectral optimal control method. This is GPOPS, which has been
+developed by Anil Rao (University of Florida) and co-workers. GPOPS
+uses a Gauss pseudospectral method and requires Matlab and SNOPT. GPOPS
+can be downloaded from: [http://sourceforge.net/projects/gpops/].
+
+There are commercial tools for solving large scale optimal control problems. Some
+modern commercial tools include:
+
+
+  * [http://www.boeing.com/phantom/socs/ SOCS] which
+uses a direct transcription  method based on ODE integration formulae.
+
+  *  [http://www.tomdyn.com PROPT], which runs under \textsc{Matlab} and
+uses a pseudospectral method.
+  * [http://www.elissar.biz/DIDO.html DIDO] is a package that runs under Matlab and uses a Lagrange pseudospectral method.
+
