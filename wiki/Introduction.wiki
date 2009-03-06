@@ -2,10 +2,10 @@
 
 = Introduction =
 
-*PSOPT* is an open source optimal control package implementing a pseudospectral discretisation method. This is a way of solving optimal
-control problems which approximates the state and control trajectories using 
-orthogonal polynomials, as well as nonlinear programming
-to find local optimal solutions. PSOPT is able to deal with problems
+*PSOPT* is an open source optimal control package implementing a pseudospectral approximation method. This is a way of solving optimal
+control problems which discretizes the state and control trajectories using 
+orthogonal polynomials, and it uses nonlinear programming
+to find local optimal solutions. *PSOPT* is able to deal with problems
 with the following characteristics:
 
   * Single or multiphase problems
