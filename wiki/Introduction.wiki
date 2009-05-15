@@ -1,4 +1,4 @@
-#summary PSOPT - A pseudospectral optimal control solver in C++
+#summary PSOPT - A Pseudospectral Optimal Control Solver in C++
 
 = Introduction =
 
@@ -78,8 +78,8 @@ These are some reasons why users may wish to use PSOPT
 
 PSOPT does not require a commercial software environment to run on, 
 or to be compiled. PSOPT is fully compatible with the [http://gcc.gnu.org/ GCC] compiler, and has
-been developed under Linux, a free operating system.
-There is an optional interface to the the nonlinear programming solver SNOPT.
+been developed under Linux, a free operating system. The software has also been ported to compile under Windows XP/Vista using Microsoft Visual Studio 2005. 
+There is an optional interface to the nonlinear programming solver SNOPT.
 Note also that the default NLP solver (IPOPT) requires a sparse linear solver
 from a range of options, some of which are available at no cost. The author has personally used the linear solver ma27. 
 
@@ -110,4 +110,4 @@ You may help improve PSOPT in a number of ways.
 = Contacting the author =
 The author is open to discussing with users potential research collaboration 
 leading to publications, academic exchanges, or joint projects. Consultancy, commercial
-support and training on the use of  *PSOPT* are also available. He be contacted at his email address: v.m.becerra@ieee.org.
+support and training on the use of  *PSOPT* are also available. He can be contacted at his email address: v.m.becerra@ieee.org.
