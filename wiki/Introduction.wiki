@@ -64,7 +64,7 @@ PSOPT has interfaces to the following NLP solvers:
 
 
 
-= Why use PSOPT and what alternatives exist =
+= Why use PSOPT  =
 
 These are some reasons why users may wish to use PSOPT
 
