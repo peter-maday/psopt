@@ -85,7 +85,7 @@ from a range of options, some of which are available at no cost. The author has 
 
 = More Details and Installation Instructions =
 
-Further details about *PSOPT* including detailed installation instructions can be found in its [http://psopt.googlecode.com/files/PSOPT_Manual_R1.pdf documentation]. Also please ensure to read the [http://psopt.googlecode.com/files/Post_Relase_Notes_1.txt post relase notes].
+Further details about *PSOPT* including detailed installation instructions can be found in its [http://psopt.googlecode.com/files/PSOPT_Manual_R1.pdf documentation]. Also please ensure to read the [http://psopt.googlecode.com/files/Post_Relase_Notes_1.txt post relase notes]. You may also wish to visit the [https://sites.google.com/a/psopt.org/psopt/Home PSOPT project home page].
 
 = How you can help =
 
