@@ -1,4 +1,4 @@
-
+#summary Post release notes for Release 1 of PSOPT - A Pseudospectral Optimal Control Solver in C++
 
 = Post release notes for Release 1 Build 2009-15-05 =
 
