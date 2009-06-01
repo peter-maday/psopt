@@ -34,5 +34,6 @@ Copy the file to the top Psopt directory and extract it there as follows:
 > tar zxvf UFconfig.tar.gz
 }}}
 Then continue with step 12, so enter the following command:
-
+{{{
 > make all 
+}}}
