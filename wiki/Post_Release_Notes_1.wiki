@@ -29,7 +29,7 @@ the following file:
 
 http://www.cise.ufl.edu/research/sparse/UFconfig/current/UFconfig.tar.gz
 
-Copy the file to the top Psopt directory and extract it there as follows:
+Copy the file to the Psopt1 directory and extract it there as follows:
 {{{
 > tar zxvf UFconfig.tar.gz
 }}}
