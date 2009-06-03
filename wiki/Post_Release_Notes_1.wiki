@@ -42,7 +42,7 @@ directory where the PSOPT distribution was extracted.
 >  sh  ./use_ipopt_only.sh
 }}}
 
-  * d) Now enter the following command:
+  * d) Now enter the following command from the top installation directory (Psopt1):
 {{{
 >  make all
 }}}
