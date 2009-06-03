@@ -29,9 +29,7 @@ Copy the file to the Psopt1 directory and extract it there as follows:
 }}}
 
 
-*3* Again if you are compiling under *Linux* and do not have SNOPT, please do the following:
-
-  * a) Extract the Psopt1.tgz archive.
+*3* Again if you are compiling under *Linux* and do not have SNOPT, please do the following after extracting the Psopt1.tgz archive and having followed notes 1 and 2 above:
 
   * b) Download the file [http://www.reading.ac.uk/~shs99vmb/files/use_ipopt_only.sh use_ipopt_only.sh] and use it to replace the file *./Psopt1/use_ipopt_only.sh* in the
 directory where the PSOPT distribution was extracted.
