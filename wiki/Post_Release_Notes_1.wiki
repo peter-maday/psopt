@@ -33,10 +33,10 @@ Copy the file to the Psopt1 directory and extract it there as follows:
 
   * a) Extract the Psopt1.tgz archive.
 
-  * b) Download the file [http://www.reading.ac.uk/~shs99vmb/files/use_ipopt_only.sh use_ipopt_only.sh] and use it to replace the file ./Psopt1/use_ipopt_only.sh in the
+  * b) Download the file [http://www.reading.ac.uk/~shs99vmb/files/use_ipopt_only.sh use_ipopt_only.sh] and use it to replace the file *./Psopt1/use_ipopt_only.sh* in the
 directory where the PSOPT distribution was extracted.
 
-  * c) Download the file [http://www.reading.ac.uk/~shs99vmb/files/Makefile.ipopt Makefile.ipopt] and use it to replace the file ./Psopt1/PSOPT/examples/Makefile.ipopt
+  * c) Download the file [http://www.reading.ac.uk/~shs99vmb/files/Makefile.ipopt Makefile.ipopt] and use it to replace the file *./Psopt1/PSOPT/examples/Makefile.ipopt*
 (note carefully the path).
 
   * d) Open a command window and cd to the top installation directory (Psopt1). Then run the script:
@@ -48,4 +48,3 @@ directory where the PSOPT distribution was extracted.
 {{{
 >  make all
 }}}
-
