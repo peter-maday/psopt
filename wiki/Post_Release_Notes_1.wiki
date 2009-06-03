@@ -31,18 +31,18 @@ Copy the file to the Psopt1 directory and extract it there as follows:
 
 *3* Again if you are compiling under *Linux* and do not have SNOPT, please do the following after extracting the Psopt1.tgz archive and having followed notes 1 and 2 above:
 
-  * b) Download the file [http://www.reading.ac.uk/~shs99vmb/files/use_ipopt_only.sh use_ipopt_only.sh] and use it to replace the file *./Psopt1/use_ipopt_only.sh* in the
+  * a) Download the file [http://www.reading.ac.uk/~shs99vmb/files/use_ipopt_only.sh use_ipopt_only.sh] and use it to replace the file *./Psopt1/use_ipopt_only.sh* in the
 directory where the PSOPT distribution was extracted.
 
-  * c) Download the file [http://www.reading.ac.uk/~shs99vmb/files/Makefile.ipopt Makefile.ipopt] and use it to replace the file *./Psopt1/PSOPT/examples/Makefile.ipopt*
+  * b) Download the file [http://www.reading.ac.uk/~shs99vmb/files/Makefile.ipopt Makefile.ipopt] and use it to replace the file *./Psopt1/PSOPT/examples/Makefile.ipopt*
 (note carefully the path).
 
-  * d) Open a command window and cd to the top installation directory (Psopt1). Then run the script:
+  * c) Open a command window and cd to the top installation directory (Psopt1). Then run the script:
 {{{
 >  sh  ./use_ipopt_only.sh
 }}}
 
-  * e) Now enter the following command:
+  * d) Now enter the following command:
 {{{
 >  make all
 }}}
