@@ -5,7 +5,7 @@
 These notes have been produced after release 1 of PSOPT was published.
 
 
-1 There is an issue with the *Linux* Makefiles, which can be solved easily.
+*1* There is an issue with the *Linux* Makefiles, which can be solved easily.
 The simplest solution to this problem is to create a symbolic link in the home
 directory to your home directory. Open a command window and enter the following
 command  (which will require the administrator's password):
@@ -15,7 +15,7 @@ command  (which will require the administrator's password):
 where USER is the name of your home directory (usually your username).
 
 
-2 It seems that the CXSparse makefile was updated on 20 May 2009, which
+*2* It seems that the CXSparse makefile was updated on 20 May 2009, which
 causes an error when trying to build PSOPT under *Linux*. The solution is simple:
 
 After performing step 11 in page 33 of the PSOPT user manual, please download
@@ -29,7 +29,7 @@ Copy the file to the Psopt1 directory and extract it there as follows:
 }}}
 
 
-3 Again if you are compiling under *Linux* and do not have SNOPT, please do the following:
+*3* Again if you are compiling under *Linux* and do not have SNOPT, please do the following:
 
   * a) Extract the Psopt1.tgz archive.
 
