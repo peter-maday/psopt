@@ -2,9 +2,8 @@
 
 = Introduction =
 
-*PSOPT* is an open source optimal control package written in C++ that uses pseudospectral discretisation methods. 
-These methods solve optimal control problems by approximatimg the time-dependent variables using orthogonal polynomials.
-This allows to discretize the differential equations and continuous constraints
+*PSOPT* is an open source optimal control package written in C++ that uses direct collocation methods, which include pseudospectral as well as local discretisations. 
+These methods solve optimal control problems by approximatimg the time-dependent variables using polynomials, which allows to discretize the differential equations and continuous constraints
 over a grid of nodes, and to compute the any integrals associated with the problem using well known quadrature formulas. 
 Nonlinear programming then is used to find local optimal
 solutions. *PSOPT* is able to deal with problems with the following characteristics:
@@ -24,6 +23,8 @@ solutions. *PSOPT* is able to deal with problems with the following characterist
 
   * Bounds on controls and state variables
 
+  * Delayed differential equations
+
   * General cost function with Lagrange and Mayer terms.
 
   * Free or fixed initial and final conditions
@@ -40,7 +41,9 @@ solutions. *PSOPT* is able to deal with problems with the following characterist
 = Features =
 The implementation has the following features:
 
-  * Choice between Legendre or Chebyshev polynomial approximation
+  * Choice between Legendre, Chebyshev, central differences, trapezoidal and Hermite-Simpson discretizations.
+
+  * Automatic mesh refinement
 
   * Automatic scaling
 
@@ -48,7 +51,7 @@ The implementation has the following features:
 
   * Numerical differentiation by using sparse finite differences
 
-  * Automatic identification of the Jacobian sparsity
+  * Automatic identification of the sparsity pattern of derivative matrices.
 
   * DAE formulation, so that differential and algebraic constraints can be implemented in the same C++ function.
 
@@ -78,7 +81,7 @@ These are some reasons why users may wish to use PSOPT
 
 PSOPT does not require a commercial software environment to run on, 
 or to be compiled. PSOPT is fully compatible with the [http://gcc.gnu.org/ GCC] compiler, and has
-been developed under Linux, a free operating system. The software has also been ported to compile under Windows XP/Vista using Microsoft Visual Studio 2005. 
+been developed under Ubuntu Linux, a free operating system. The software has also been ported to compile under Windows XP/Vista/7 using Microsoft Visual Studio 2005 and 2008. 
 There is an optional interface to the nonlinear programming solver SNOPT.
 Note also that the default NLP solver (IPOPT) requires a sparse linear solver
 from a range of options, some of which are available at no cost. The author has personally used the linear solver MA27 (and MC19) from the Harwell Subroutine Library (HSL).
@@ -112,5 +115,4 @@ You may help improve PSOPT in a number of ways.
 
 = Contacting the author =
 The author is open to discussing with users potential research collaboration 
-leading to publications, academic exchanges, or joint projects. Consultancy, commercial
-support and training on the use of  *PSOPT* are also available. He can be contacted at his email address: v.m.becerra@ieee.org.
+leading to publications, academic exchanges, or joint projects. He can be contacted at his email address: v.m.becerra@ieee.org.
