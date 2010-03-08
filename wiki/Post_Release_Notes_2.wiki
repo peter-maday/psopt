@@ -29,7 +29,7 @@ This is a simple procedure.
 
     a) From Ubuntu Linux: 
 
-    - Open a terminal and cd to the directory <BASEDIR>/psopt2/lib
+    - Open a terminal and cd to the directory <BASEDIR>/psopt2/PSOPT/lib
 
         - Enter the command
 
