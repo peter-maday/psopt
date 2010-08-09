@@ -10,7 +10,7 @@ This patch fixes problems with the 'rk4_propagate' and 'rkf_propagate' functions
 
 This patch may be downloaded from:
 
-http://psopt.googlecode.com/files/patch_2.02.tgz
+http://psopt.googlecode.com/files/patch_2.02.zip
 
 Date of Release of this patch: 31 July 2010
 
