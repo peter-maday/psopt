@@ -7,11 +7,13 @@
 In page 49 of the PSOPT Release 3 User Manual, the two lines:
 
 $ sudo cp /adolc base/lib64/* /usr/lib
+
 $ sudo cp -r /adolc base/include/* /usr/include/
 
 should be:
 
 $ sudo cp ~/adolc base/lib64/* /usr/lib
+
 $ sudo cp -r ~/adolc base/include/* /usr/include/
 
 As ADOL-C is installed in the home directory.
@@ -59,4 +61,3 @@ This is a simple procedure.
           <BASEDIR>\Psopt3\PSOPT\lib
         - Enter the command
                   > nmake -f Makefile.vc all
-
