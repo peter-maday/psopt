@@ -36,6 +36,8 @@ solutions. *PSOPT* is able to deal with problems with the following characterist
   * Fixed or free final time
 
   * Optimisation of static parameters
+ 
+  * Parameter estimation based on sampled observations
 
 
 = Features =
@@ -80,15 +82,14 @@ These are some reasons why users may wish to use PSOPT
 
 
 PSOPT does not require a commercial software environment to run on, 
-or to be compiled. PSOPT is fully compatible with the [http://gcc.gnu.org/ GCC] compiler, and has
-been developed under Ubuntu Linux, a free operating system. The software has also been ported to compile under Windows XP/Vista/7 using Microsoft Visual Studio 2005 and 2008. 
+or to be compiled. PSOPT been developed under Ubuntu Linux, a free operating system and the GCC compiler. The software has also been ported to compile under Windows 7 using Microsoft Visual Studio 2010. 
 There is an optional interface to the nonlinear programming solver SNOPT.
 Note also that the default NLP solver (IPOPT) requires a sparse linear solver
 from a range of options, some of which are available at no cost. The author has personally used the linear solver MA27 (and MC19) from the Harwell Subroutine Library (HSL).
 
 = More Details and Installation Instructions =
 
-Further details about *PSOPT* including detailed installation instructions can be found in its [http://psopt.googlecode.com/files/PSOPT_Manual_R2.pdf documentation]. Also please ensure to read the [http://code.google.com/p/psopt/wiki/Post_Release_Notes_2 post release notes]. You may also wish to visit the [https://sites.google.com/a/psopt.org/psopt/Home PSOPT project home page]. You may also wish to join the [http://groups.google.com/group/psopt-users-group PSOPT user's group].
+Further details about *PSOPT* including detailed installation instructions can be found in its [http://psopt.googlecode.com/files/PSOPT_Manual_R3.pdf documentation]. Also please ensure to read the [http://code.google.com/p/psopt/wiki/Post_Release_Notes_3 post release notes]. You may also wish to visit the [https://sites.google.com/a/psopt.org/psopt/Home PSOPT project home page]. You may also wish to join the [http://groups.google.com/group/psopt-users-group PSOPT user's group].
 
 = How you can help =
 
