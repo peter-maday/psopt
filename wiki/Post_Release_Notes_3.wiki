@@ -1,11 +1,11 @@
-== Updated MicrosoftVisualStudio.inc file ==
+== Updated MicrosoftVisualStudio file ==
 
 Please note that an updated MicrosoftVisualStudio.inc file has been posted in the downloads page. This is for use in Windows installations. The file assumes by default that Microsoft Visual Studio v.10 is being used.
 
 == Detailed instruction for PSOPT installation under Windows ===
 
 Musa Audu from Case Western Reserve University has posted a document with detailed instruction for a successful PSOPT3 installation under Windows. See this link
-[http://filer.case.edu/mxa93/PSOPT3/]http://filer.case.edu/mxa93/PSOPT3/
+[http://filer.case.edu/mxa93/PSOPT3/]
 
 
 #summary Post release Notes for PSOPT Release 3
