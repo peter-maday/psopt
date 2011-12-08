@@ -1,6 +1,6 @@
-== Updated MicrosoftVisualStudio include file ==
+== Updated Microsoft Visual Studio include file ==
 
-Please note that an updated MicrosoftVisualStudio include file has been posted in the downloads page. This is for use in Windows installations. The file assumes by default that Microsoft Visual Studio v.10 is being used.
+Please note that an updated Microsoft Visual Studio include file has been posted in the downloads page. This is for use in Windows installations. The file assumes by default that Microsoft Visual Studio v.10 is being used.
 
 == Detailed instruction for PSOPT installation under Windows ===
 
